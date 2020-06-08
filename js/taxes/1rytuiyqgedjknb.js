@@ -32,7 +32,7 @@ function decrementVisitCount() {
 // https://api.countapi.xyz/hit/youtube.com/
 
 function currentNum (){
-	fetch(`https://api.countapi.xyz/get/youtube.com/`)
+	fetch(`https://api.countapi.xyz/get/t.com/`)
 	.then(res=>res.json())
 	.then(res => {
 		updateCount.innerHTML = res.value-1;
