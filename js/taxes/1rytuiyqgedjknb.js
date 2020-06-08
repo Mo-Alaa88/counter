@@ -13,7 +13,7 @@ minus.addEventListener('click',()=>{
 })
 function incrementVisitCount() {
 	// fetch('https://api.countapi.xyz/update/florin-popcom/codepen/?amount=1')
-	fetch('https://api.countapi.xyz/update/youtube.com/?amount=1')
+	fetch('https://api.countapi.xyz/update/t.com/?amount=1')
 	.then(res => res.json())
 	.then(res => {
 		countEl.innerHTML = res.value;
