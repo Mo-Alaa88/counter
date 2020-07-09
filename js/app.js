@@ -4,7 +4,7 @@ getYourNumDB = sessionStorage.getItem("yourNum"),
 getValueNumSys =sessionStorage.getItem("num");
 
 currentNum()
-timedRefresh(20000)//1min
+timedRefresh(10000)//10 sc
 notification()
 // timedRefresh(5000)//2min
 
