@@ -2,8 +2,7 @@
 <html lang="ar">
 <head>
     <meta charset="UTF-8"/>
-    <meta name="description" content="سجل شركتك/جهتك معنا مجانا بهدف الحفاظ على صحتك وصحة من حولك (#حافظ_على_المسافة_الامنه #دورك_محفوظ #صحتك_في_بعدك #الدايرة_بتقرب"/>
-    <meta name="keywords" content="bldor,بالدور,بلدور,بدور,دورك,دوري,baldor,beldor,bldoor,beldoor,baldoor,"/>
+    <meta name="robots" content="noindex">
     <meta name="author" content=""/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<link rel ='stylesheet' href='../../css/main.css'/>
@@ -44,8 +43,20 @@
         <p>الرقم الحالي</p>
         <h1 id="count">0</h1>
         <button id='plus'> إضافة رقم </button>
-        <!-- <button id='minus'> minus </button> -->
+        <button onclick="togglePopus()"> تصفير العداد </button>
     </section>
+    <!-- For popup box -->
+    <div class="popup" id="popup-1">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="close-btn" onclick="togglePopus()">&times;</div>
+            <h1>إنتبة!!</h1>
+            <p>ستقوم بتصفير العداد ومسح كافة الارقام</p>
+            <p>هل أنت على يقين من تلك الخطوة؟</p>
+            <button onclick="togglePopus()" class="cancel-btn">تراجع</button>
+            <button onclick="resetCounter()" class="reset-btn">نعم</button>
+        </div>
+    </div>
     <footer  onclick="closeNav()">
         <!-- <p>إدعمنا بالنشر</p> -->
         <script src="../../js/taxes/1rytuiyqgedjknb.js"></script>
