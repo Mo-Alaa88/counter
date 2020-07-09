@@ -11,7 +11,7 @@ notification()
 // https://api.countapi.xyz/hit/youtube.com/
 
 function currentNum (){
-	fetch(`https://api.countapi.xyz/get/t.com/`)
+	fetch(`https://api.countapi.xyz/get/asqdsf/`)
 	.then(res=>res.json())
 	.then(res => {
 		const resVal =res.value;
